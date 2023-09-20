@@ -195,7 +195,7 @@ h1{
 }
 
 .project_left{
-	width: 30%;
+	flex:1;
 	padding: 40px;
 	min-width: 333px;
 }
@@ -212,9 +212,9 @@ h1{
 .project_right{
 	display: flex;
 	flex-direction: column;
-	width: 50%;
+	
 	padding: 40px;
-	min-width: 333px;
+	flex:2;
 
 }
 .button_project{
@@ -456,7 +456,7 @@ justify-content: space-between;
 
   .project_left , .project_right{
   	min-width: 270px;
-  	width: 270px;
+  	width: 90%;
   }
 
 
@@ -475,7 +475,10 @@ justify-content: space-between;
   	
   	height: 770px;
   }
-
+  .help_boxes{
+  	flex-direction: column;
+  	align-items: center;
+  }
 
   .companies img {
   width: 100%;
