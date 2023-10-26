@@ -418,6 +418,9 @@ justify-content: space-between;
 	color:white;
 }
 
+.role{
+	height: 22px;
+}
 
 @media (max-width: 980px) {
   .menu-bar {
